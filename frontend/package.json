@@ -1,0 +1,41 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.5.4",
+    "@vue-flow/core": "^1.48.2",
+    "chart.js": "^4.5.1",
+    "frappe-gantt": "^1.2.2",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "leaflet": "^1.9.4",
+    "marked": "^18.0.9",
+    "monaco-editor": "^0.56.0",
+    "pinia": "^4.0.2",
+    "primeicons": "^8.0.1",
+    "primevue": "^4.2.5",
+    "vue": "^3.5.0",
+    "vue-chartjs": "^5.3.4",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.26.0",
+    "@playwright/test": "^1.63.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vitest/coverage-v8": "^5.0.1",
+    "@vue/test-utils": "^2.5.1",
+    "jsdom": "^30.1.0",
+    "typescript": "^5.6.3",
+    "vite": "^7.0.0",
+    "vitest": "^5.0.1",
+    "vue-tsc": "^2.1.0"
+  }
+}

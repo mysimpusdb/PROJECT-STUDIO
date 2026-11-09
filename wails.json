@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "project-studio",
+  "outputfilename": "project-studio",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "DB Studio Team",
+    "email": "mysimpusdb@gmail.com"
+  },
+  "info": {
+    "companyName": "DB Studio",
+    "productName": "PROJECT-STUDIO",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright (c) 2026 DB Studio"
+  }
+}
